@@ -190,6 +190,12 @@ body {
 @media screen and (max-width: 510px) {
 	#drum-machine {
 		width: 100vw;
+
+		#settings {
+			#volumeLabel {
+				margin: 0 10px 0 10px;
+			}
+		}
 	}
 }
 
@@ -200,6 +206,12 @@ body {
 
 			.drum-pad {
 				padding: 30px;
+			}
+		}
+
+		#settings {
+			.volPower {
+				width: 200px;
 			}
 		}
 	}
